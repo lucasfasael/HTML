@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Instagram</title>
+    <style>
+        body{
+            height: 100vh;
+            margin: 0px;
+        }
+        .cont{
+            display: flex;
+            height: 100vh;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .img{
+            width: 26%;
+            height: 500px;
+        }
+        .child{
+           width: 26%;
+           height: 500px;
+           border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+      <div class="img">
+        <img src="D:\Imagens\instagram-app.png" alt="ERROR">
+      </div>
+      <div class="child">
+       <img src="D:\Imagens\300.png" alt="ERROR">
+       <br>
+       <label for="user">Login:   </label>    
+<input id="user" type="text" name="user" placeholder="digite seu usuário " required>
+
+<br><br>
+
+<label for="senha"> Senha:   </label>    
+<input id="senha" type="password" name="senha" placeholder="digite sua senha aqui" required>
+
+<br><br>
+
+<input type="submit">
+      </div>
+    </div>
+</body>
+</html>

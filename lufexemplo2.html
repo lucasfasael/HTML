@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .caixa-1 {
+            display: flex;
+            height: 200px;
+        }
+
+        .item-flex-1 {
+            flex: 1;
+            background-color: red;
+            margin: 1px;
+        }
+
+        .item-flex-2 {
+            flex: 2;
+            background-color: red;
+            margin: 1px;
+        }
+
+        .caixa-2 {
+            display: flex;
+            height: 200px;
+            margin: 1px;
+        }
+
+
+
+        .imagem {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            /* 
+            ### tem essas outras opções ###
+            object-fit: contain;
+            object-fit: fill;
+            object-fit: scale-down;
+            object-fit: inherit; */
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>seu problema</h1>
+    <div class="caixa-2">
+        <div>div 1 / 2</div>
+        <img src="https://uploads.metropoles.com/wp-content/uploads/2022/01/22210223/FJvrI7BXMAIHJ9U.jpg" alt="ERROR">
+        <div>div 2 / 2</div>
+        <img src="https://uploads.metropoles.com/wp-content/uploads/2022/01/22210223/FJvrI7BXMAIHJ9U.jpg" alt="ERROR">
+        <div>div 3 / 2</div>
+    </div>
+
+    <br>
+
+    <h1>Solução</h1>
+    <div class="caixa-1">
+        <div class="item-flex-1">div 1 / 1</div>
+        <div class="item-flex-2">
+            <img class="imagem" src="https://uploads.metropoles.com/wp-content/uploads/2022/01/22210223/FJvrI7BXMAIHJ9U.jpg" alt="ERROR">
+        </div>
+        <div class="item-flex-1">div 2 / 1</div>
+        <div class="item-flex-1">
+            <img class="imagem" src="https://uploads.metropoles.com/wp-content/uploads/2022/01/22210223/FJvrI7BXMAIHJ9U.jpg" alt="ERROR">
+        </div>
+        <div class="item-flex-2">div 3 / 1</div>
+    </div>
+
+</body>
+
+</html>
