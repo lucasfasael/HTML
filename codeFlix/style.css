@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-color: rgb(10, 10, 85);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(64, 64, 243);
+}
+a{
+    color: #000000;
+}
+.codeflix{  
+    flex: 0.4;
+    text-align: center;
+    font-family: Jazz LET, fantasy;
+}
+.home{
+    flex: 1;
+    text-align: center;
+}
+.login{
+    flex: 1;
+    text-align: center;
+}
+.cadastro{
+    flex: 1;
+    text-align: center;
+}
+.contato{
+    flex: 1;
+    text-align: center;
+}
+.sobre{
+    flex: 1;
+    text-align: center;
+}
+.artigo{
+    display: flex;
+    height: 95vh;
+}
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left > h1{
+    color: rgb(29, 214, 220);
+    text-align: center;
+    font-size: 40px;
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 50%;
+    height: 50%;
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #000000cb;
+    background: rgb(92, 135, 208);
+}
+.card > h1{
+    color: rgb(18, 18, 133);
+    font-weight: 800;
+    font-size: 40px;
+}
+label{
+    font-size: 25px;
+    margin-left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: flex-start;
+}
+.btn{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    background: rgb(29, 214, 220);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(10, 65, 67);
+}
