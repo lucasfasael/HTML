@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;400;500;700;800&display=swap');
 body{
     margin: 0px;
     background-color: rgb(10, 10, 85);
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .menu{
     display: flex;
@@ -9,6 +12,11 @@ body{
     width: 100vw;
     height: 5vh;
     background-color: rgb(64, 64, 243);
+}
+@media (min-width:700px){
+    .menu{
+        
+    }
 }
 a{
     color: #000000;
@@ -23,10 +31,6 @@ a{
     text-align: center;
 }
 .login{
-    flex: 1;
-    text-align: center;
-}
-.cadastro{
     flex: 1;
     text-align: center;
 }
@@ -85,7 +89,7 @@ label{
     align-self: flex-start;
 }
 .btn{
-    width: 100%;
+    width: 60%;
     padding: 16px 0px;
     margin: 25px;
     border: none;

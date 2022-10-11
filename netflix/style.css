@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    background-color: blue;
+    background-image: url(netflix-bg.jpg);
+}
+
+h1, p, h2{
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: 450px;
+    height: 660px;
+    margin: auto;
+    
+}
+
+.container-main{
+    background-color: rgb(16, 17, 17);
+    border-radius: 4px;
+}
+
+.container-main.central{
+    width: 314px;
+    margin: auto;
+}
+
+.container-main.central h1{
+    padding: 50px 0 30px;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    height: 50px;
+    margin: 10px 0;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+form button{
+    margin-top: 30px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e50914;
+    color: #ffffff;
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.check input{
+    margin: 0;
+}
+
+.container-main.central2{
+    width: 314px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.container-main.central2 span{
+    color: #737373;
+}
+
+.container-main.central2 .captcha{
+    padding: 20px 0 100px;
+    font-size: 13px;
+    color: #737373;
+}
+
+.container-main.central2 .captcha .learn-more{
+    color: blue;
+}
+
