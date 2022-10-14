@@ -5,16 +5,11 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.menu{
-    height: 5vh;
-    width: 100vw;
-    background-color: rgb(64, 64, 243);
-}
 .artigo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    height: 100vh;
     width: 100vw;
 }
 .card{
@@ -97,7 +92,6 @@ td{
     }
     .card{
         box-shadow: none;
-        overflow: hidden;
         background: none;
     }
     .card > h1{
