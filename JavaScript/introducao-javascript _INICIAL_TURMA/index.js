@@ -25,6 +25,8 @@ for (var i = 0; i < pacientes.length; i++){
 
     var media = calculaM(n1, n2);
     tdMedia.textContent = media;
+
+    //var pesoEhValido = validaPeso(peso);
 }
 
 function calculaM(n1, n2){
@@ -39,3 +41,5 @@ function calculaM(n1, n2){
 //     tdImc.textContent = "Peso invalido";
 //     paciente.classList.add("paciente-invalido");
 // }
+
+//function validaPeso
