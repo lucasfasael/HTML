@@ -4,17 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex4</title>
+    <title>Ex5</title>
     <style>
         body{
             font: normal 20pt Arial;
+            color: white;
+            background-color: blue;
+        }
+        h1{
+            color: rgb(255, 213, 0);
         }
     </style>
 </head>
 <body>
+    <h1>
+        Introdução ao DOM !!!
+    </h1>
+    <p>
+        Aqui vai o resultado
+    </p>
+    <p>
+        Aprendendo a usar o <strong> DOM</strong> em JavaScript!!!
+    </p>
+    <div id="msg">
+        Clique em mim
+    </div>
     <script>
-        var nome = window.prompt("Qual é o seu nome ? : ")
-        document.write(`Seu nome tem <strong> ${nome.length} </strong> letras`)
+        var corpo = document.body
+        corpo.style.background = 'cyan'
+        var p1 = document.getElementsByTagName('p')[1]
+        p1.style.color = 'red'
+        window.document.write('Tá escrito na nova variável: ' + p1.innerHTML + ' com a cor alterada para vermelho')
+        //var d = document.getElementById('msg')
+        // d.style.backgroundColor = 'green'
+        // d.innerText = 'BATATA FRITA MODIFICADA'
+        //innerText = texto, innerHTML = texto + formatação
+        var d = document.querySelector('div#msg')
+        d.style.background = "purple"
     </script>
 </body>
 </html>
