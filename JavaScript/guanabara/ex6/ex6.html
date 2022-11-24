@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex6</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        #area{
+            font: normal 20pt Arial;
+            background-color: rgb(44, 255, 44);
+            color: rgb(7, 31, 255);
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" -->
+    <div id="area">
+        Interaja...
+    </div>
+    <script>
+        var quadrado = document.querySelector("div#area")
+        quadrado.addEventListener('click', clicar)
+        quadrado.addEventListener('mouseenter', entrar)
+        quadrado.addEventListener('mouseout', sair)
+        function clicar(){
+            quadrado.style.background = 'pink'
+            quadrado.innerText = 'Clicou!!!'
+        }
+        function entrar(){
+            quadrado.style.background = 'red'
+            quadrado.innerText = 'Entrou!'
+        }
+        function sair(){
+            quadrado.style.background = 'green'
+            quadrado.innerText = 'Saiu!'
+        }
+        // alguns eventos: click, mouseenter, mousemove, mousedown, mouseuo, mouseout ~~ DOM EVENT REFERENCE PARA PESQUISA ~~
+    </script>
+</body>
+
+</html>
